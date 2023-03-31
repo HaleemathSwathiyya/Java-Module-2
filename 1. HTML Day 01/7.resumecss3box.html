@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        nav a {
+            font-size: large;
+            float: left;
+            width: 250px;
+            display: block;
+            color: gray;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: lightgray;
+            color: brown;
+        }
+
+        header{
+            background-color: gainsboro;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav{
+            text-align: center;
+        }
+
+        nav a{
+            float: left;
+            display: block;
+            color: blue;
+        }
+
+        main{
+            padding: 15px;
+            text-align: center;
+            clear: left;
+        }
+
+        main:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer{
+            height: 50px;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: midnightblue;
+            color: white;
+        }
+
+    </style>
+    
+
+
+</head>
+<body>
+    <header>
+        <h1>Jeni Sebastian</h1>
+    </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Product</a>
+        <a href="">Relations</a>
+        <a href="">Registers</a>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h1>Home</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ipsam quod, reiciendis aspernatur amet sequi tenetur laboriosam atque blanditiis quasi odit neque. Aut nihil dolor nostrum esse voluptate, ratione laborum!</p>
+            </section>
+
+            <section>
+                <h1 id="prod">Product</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero veniam magnam illo recusandae consequuntur atque nostrum eum dolorum voluptates! Repellat modi quaerat ducimus laudantium quas, quasi consequatur temporibus numquam deleniti.</p>
+            </section>
+
+            <section>
+                <h1 id="relate">Relations</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quidem veniam alias, enim obcaecati est, provident ea repellendus commodi consequuntur minus. Ipsum, provident beatae laborum sunt dolores quaerat cumque ducimus?</p>
+            </section>
+
+            <section>
+                <h1>Registers</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt corporis quasi eaque nostrum. Eveniet suscipit ea modi minus, neque inventore voluptatem quia molestias recusandae cum dicta nihil! Magnam, culpa officiis!</p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>Copyright@2020</footer>
+
+    <h3>
+        <a href="">Home</a>
+        <a href="@prod">Product</a>
+        <a href="@relate">Relations</a>
+        <a href="">Registers</a>
+    </h3>
+
+</body>
+</html>

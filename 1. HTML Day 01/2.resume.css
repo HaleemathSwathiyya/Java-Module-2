@@ -1,0 +1,28 @@
+/* Split the screen in half */
+.splitRight {
+    height: 100%;
+    width: 69%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color:burlywood;
+  }
+
+  .splitLeft {
+    height: 100%;
+    width: 31%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color:brown;
+  }
+
+.contents{
+    padding-left: 5%;
+}

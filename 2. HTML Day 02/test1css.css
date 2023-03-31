@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    border-top: rgb(7, 7, 7);
+    border-style: solid;
+    border-color: rgb(223, 27, 27);
+    border-width: 3px;
+    background-color: burlywood;
+}
+
+/* body>p{
+
+    color: rgb(49, 48, 48);
+    background-color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+
+} */
+
+div{
+    width:auto;
+    height:auto;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(218, 203, 236);
+    padding: 20px;
+    margin: 10px;
+}
+
+#first>h1{
+    font-family: 'Edu NSW ACT Foundation', cursive;;
+}
+
+#first>p{
+    font-family: 'Dancing Script', cursive;
+}
+
+#second>h1{
+    font-family: 'Fasthand', cursive;
+}
+
+#third>h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+#p-1{
+    background-color:antiquewhite;
+    font-style: italic;
+}
+
+#p-2{
+    background-color:darkcyan;
+    font-style: oblique;
+}
+
+#p-3{
+    background-color:darkgreen;
+    font-style: italic;
+}
+
+.p1{
+    background-color: rgb(242, 216, 242);
+}
+
+.first-para{
+    font-size: x-large;
+    color: cornflowerblue;
+}
+
+
+#p-1>span{
+    color: darkmagenta;
+}
+
+#second span{
+    color: goldenrod;
+}
+
+span{
+    color: brown;
+ }
+
+/* h1{
+    font-family: 'Alkatra', cursive;
+} */
+
